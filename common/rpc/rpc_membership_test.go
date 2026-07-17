@@ -61,6 +61,7 @@ func TestRPCFactoryRemovesStaleConnectionsOnMembershipUpdate(t *testing.T) {
 		0,
 		nil,
 		dialOptions,
+		nil,
 		mockMonitor,
 	)
 
